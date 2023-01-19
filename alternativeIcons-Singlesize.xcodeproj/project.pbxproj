@@ -14,6 +14,7 @@
 		8A5AF3212979EB8100C356E9 /* LogoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3202979EB8100C356E9 /* LogoClient.swift */; };
 		8A5AF3232979EB8E00C356E9 /* LogoClient+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3222979EB8E00C356E9 /* LogoClient+Live.swift */; };
 		8A5AF3252979EB9E00C356E9 /* LogoClient+Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3242979EB9E00C356E9 /* LogoClient+Mocks.swift */; };
+		8A5AF3272979EFBB00C356E9 /* IconAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3262979EFBB00C356E9 /* IconAssets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8A5AF3202979EB8100C356E9 /* LogoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoClient.swift; sourceTree = "<group>"; };
 		8A5AF3222979EB8E00C356E9 /* LogoClient+Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogoClient+Live.swift"; sourceTree = "<group>"; };
 		8A5AF3242979EB9E00C356E9 /* LogoClient+Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogoClient+Mocks.swift"; sourceTree = "<group>"; };
+		8A5AF3262979EFBB00C356E9 /* IconAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconAssets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				8A5AF3202979EB8100C356E9 /* LogoClient.swift */,
 				8A5AF3222979EB8E00C356E9 /* LogoClient+Live.swift */,
 				8A5AF3242979EB9E00C356E9 /* LogoClient+Mocks.swift */,
+				8A5AF3262979EFBB00C356E9 /* IconAssets.swift */,
 			);
 			path = LogoClient;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				8A5AF3212979EB8100C356E9 /* LogoClient.swift in Sources */,
 				8A5AF3252979EB9E00C356E9 /* LogoClient+Mocks.swift in Sources */,
 				8A5AF3232979EB8E00C356E9 /* LogoClient+Live.swift in Sources */,
+				8A5AF3272979EFBB00C356E9 /* IconAssets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"alternativeIcons-Singlesize/Preview Content\"";
@@ -312,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"alternativeIcons-Singlesize/Preview Content\"";
