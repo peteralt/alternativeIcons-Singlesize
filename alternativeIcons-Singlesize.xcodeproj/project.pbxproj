@@ -11,6 +11,9 @@
 		8A5AF3142979EB4200C356E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3132979EB4200C356E9 /* ContentView.swift */; };
 		8A5AF3162979EB4200C356E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5AF3152979EB4200C356E9 /* Assets.xcassets */; };
 		8A5AF3192979EB4200C356E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5AF3182979EB4200C356E9 /* Preview Assets.xcassets */; };
+		8A5AF3212979EB8100C356E9 /* LogoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3202979EB8100C356E9 /* LogoClient.swift */; };
+		8A5AF3232979EB8E00C356E9 /* LogoClient+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3222979EB8E00C356E9 /* LogoClient+Live.swift */; };
+		8A5AF3252979EB9E00C356E9 /* LogoClient+Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF3242979EB9E00C356E9 /* LogoClient+Mocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8A5AF3132979EB4200C356E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A5AF3152979EB4200C356E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5AF3182979EB4200C356E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A5AF3202979EB8100C356E9 /* LogoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoClient.swift; sourceTree = "<group>"; };
+		8A5AF3222979EB8E00C356E9 /* LogoClient+Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogoClient+Live.swift"; sourceTree = "<group>"; };
+		8A5AF3242979EB9E00C356E9 /* LogoClient+Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogoClient+Mocks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		8A5AF3102979EB4200C356E9 /* alternativeIcons-Singlesize */ = {
 			isa = PBXGroup;
 			children = (
+				8A5AF31F2979EB6C00C356E9 /* LogoClient */,
 				8A5AF3112979EB4200C356E9 /* alternativeIcons_SinglesizeApp.swift */,
 				8A5AF3132979EB4200C356E9 /* ContentView.swift */,
 				8A5AF3152979EB4200C356E9 /* Assets.xcassets */,
@@ -65,6 +72,16 @@
 				8A5AF3182979EB4200C356E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A5AF31F2979EB6C00C356E9 /* LogoClient */ = {
+			isa = PBXGroup;
+			children = (
+				8A5AF3202979EB8100C356E9 /* LogoClient.swift */,
+				8A5AF3222979EB8E00C356E9 /* LogoClient+Live.swift */,
+				8A5AF3242979EB9E00C356E9 /* LogoClient+Mocks.swift */,
+			);
+			path = LogoClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +156,9 @@
 			files = (
 				8A5AF3142979EB4200C356E9 /* ContentView.swift in Sources */,
 				8A5AF3122979EB4200C356E9 /* alternativeIcons_SinglesizeApp.swift in Sources */,
+				8A5AF3212979EB8100C356E9 /* LogoClient.swift in Sources */,
+				8A5AF3252979EB9E00C356E9 /* LogoClient+Mocks.swift in Sources */,
+				8A5AF3232979EB8E00C356E9 /* LogoClient+Live.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
